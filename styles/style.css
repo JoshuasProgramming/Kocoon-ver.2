@@ -64,4 +64,64 @@
   transition: ease-in-out 0.5s;
   cursor: pointer;
 }
+
+.section-5 {
+  background: #392884;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-5 .sub1-section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 32vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.section-5 .sub1-section5 p {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: aliceblue;
+  font-family: system-ui;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.section-5 .sub2-section5 p {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: aliceblue;
+  font-family: system-ui;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.section-5 .sub3-section5 p {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: aliceblue;
+  font-family: system-ui;
+  font-size: 27px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */

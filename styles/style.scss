@@ -51,4 +51,46 @@
     }
 }
 
+.section-5{
+    background: #392884;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 
+    .sub1-section5{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 32vh;
+        flex-flow: column;
+
+        p{
+            align-self: flex-start;
+            color: aliceblue;
+            font-family: system-ui;
+            font-size: 27px;
+            font-weight: 400;
+        }
+    }
+
+    .sub2-section5{
+        p{
+            align-self: flex-start;
+            color: aliceblue;
+            font-family: system-ui;
+            font-size: 27px;
+            font-weight: 400;
+        }
+    }
+
+    .sub3-section5{
+        p{
+            align-self: flex-start;
+            color: aliceblue;
+            font-family: system-ui;
+            font-size: 27px;
+            font-weight: 400;
+        }
+    }
+}
