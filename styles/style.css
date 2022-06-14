@@ -111,7 +111,7 @@ nav .navbar .right p {
   font-size: 30px;
 }
 
-.section-1 {
+.whitespace {
   height: 11vh;
 }
 
@@ -192,6 +192,7 @@ nav .navbar .right p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  height: 25vh;
 }
 
 .section-5 .sub1-section5 {
@@ -201,14 +202,19 @@ nav .navbar .right p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   height: 32vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+}
+
+.section-5 .sub1-section5 img {
+  height: 110px;
+  padding: 100px 0% 0% 0%;
 }
 
 .section-5 .sub1-section5 p {

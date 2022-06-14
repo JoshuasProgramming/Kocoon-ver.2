@@ -91,7 +91,7 @@ nav{
     }
 }
 
-.section-1{
+.whitespace{
     height: 11vh;
 }
 
@@ -150,13 +150,19 @@ nav{
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    height: 25vh;
 
     .sub1-section5{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: start;
         height: 32vh;
         flex-flow: column;
+
+        img{
+            height: 110px;
+            padding: 100px 0% 0% 0%;
+        }
 
         p{
             align-self: flex-start;
