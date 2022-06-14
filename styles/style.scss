@@ -4,8 +4,95 @@
 }
 
 
+/* NAVIGATION BAR*/
 nav{
+    background: #39288400;
+    height: 14vh;
+    position: fixed;
+    z-index: 9999;
+    width: -webkit-fill-available;
 
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 10vh;
+        background: white;
+        
+        .left{
+            img{
+                height: 8vh;
+                width: 15vw;
+                background-repeat: no-repeat;
+                margin: 4.8% 0% 0% 0%;
+
+                &:hover{
+                    cursor:pointer;
+                }
+            }
+        }
+
+        .middle{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+
+            li{
+                list-style: none; 
+                margin: 0% 30px 0% 0%;   
+                font-size: 1.5vw;  
+                font-family: 'Roboto', sans-serif;
+                transition: ease-in-out 0.5s;
+
+                a{
+                    align-self: flex-start;
+                    color: black;
+                    font-family: system-ui;
+                    font-size: 27px;
+                    font-weight: 400;
+                    text-decoration: none;
+
+                    &:hover{
+                        transition: ease-in-out 0.5s;
+                        color: #392884;
+                        opacity: 100%;
+                        cursor: pointer;
+                    }
+                }
+
+                &:hover{
+                    transition: ease-in-out 0.5s;
+                    color: whitesmoke;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .right{
+            img{
+                margin: 0% 10px 0% 0%;
+                width: 3vw;
+                transition: ease-in-out 0.5s;
+
+                &:hover{
+                    transition: ease-in-out 0.5s;
+                    filter: invert(100%);
+                    cursor: pointer;
+                }
+            }
+
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.section-1{
+    height: 11vh;
 }
 
 /* Section 4 (Our Community Section) */
