@@ -208,6 +208,60 @@ nav .navbar .right p {
   height: auto;
 }
 
+.section-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50vh;
+  margin: 0% 10% 0% 10%;
+}
+
+.section-3 .left {
+  width: -webkit-fill-available;
+  padding-right: 1%;
+}
+
+.section-3 .left h1 {
+  font-size: 100px;
+}
+
+.section-3 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-3 .right p {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.section-3 .right a {
+  color: #392884;
+  font-size: 25px;
+  text-decoration: none;
+}
+
 /* Section 4 (Our Community Section) */
 .section-4 {
   background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#00000094)), url(/images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);

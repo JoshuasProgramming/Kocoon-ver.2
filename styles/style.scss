@@ -163,6 +163,42 @@ nav{
     }
 }
 
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 50vh;
+    margin: 0% 10% 0% 10%;
+
+    .left{
+        width: -webkit-fill-available;
+        padding-right: 1%;
+
+        h1{
+            font-size: 100px;
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: column;
+
+        p{
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+
+        a{
+            color: #392884;
+            font-size: 25px;
+            text-decoration: none;
+        }
+    }
+}
+
 /* Section 4 (Our Community Section) */
 .section-4{
     background: linear-gradient(#202020, #00000094), url(/images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
