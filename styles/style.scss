@@ -95,14 +95,81 @@ nav{
     height: 11vh;
 }
 
+.section-1{
+    height: 53vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 10% 0% 10%;
+
+    .left{
+        width: min-content;
+        padding-right: 1%;
+
+        h1{
+            font-size: 150px;
+
+        }
+    }
+
+    .right{
+        width: 50%;
+        margin-left: 12%;
+
+        .right-paragraph{
+            font-size: 50px;
+            padding-bottom: 50px;
+        }
+
+        .right-btns{
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            a{
+                font-size: 1.85vw;
+                border: 2.5px solid #020202;
+                border-radius: 25px;
+                padding: 2.3% 3.1% 2.3% 3.1%;
+                font-family: system-ui;
+                font-weight: 500;
+                align-self: center;
+                transition: ease-in-out 0.5s;
+                background: rgba(248, 248, 255, 0.966);
+                text-decoration: none;
+                color: black;
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+.section-2{
+    .section-2-image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        max-width: -webkit-fill-available;
+        padding-top: 10px;
+        margin: 0% 10% 0% 10%;
+
+        img{
+            width: -webkit-fill-available;
+            height: auto;
+        }
+    }
+}
+
 /* Section 4 (Our Community Section) */
 .section-4{
     background: linear-gradient(#202020, #00000094), url(/images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
     height: 53vh;
-    height: 55vh;
     background-size:cover;
     min-height: 80%;
-    width:100%;
+    width: -webkit-fill-available;
 
     .sub1-section4{
         display: flex;
