@@ -11,6 +11,7 @@ nav{
     position: fixed;
     z-index: 9999;
     width: -webkit-fill-available;
+    // display: inline;
 
     .navbar{
         display: flex;
@@ -149,6 +150,7 @@ nav{
 }
 
 .section-2{
+
     .section-2-image-container{
         display: flex;
         align-items: center;
@@ -265,6 +267,8 @@ nav{
     background-size:cover;
     min-height: 80%;
     width: -webkit-fill-available;
+    max-height: 100%;
+    height: auto;
 
     .sub1-section4{
         display: flex;
@@ -293,6 +297,7 @@ nav{
             background: rgba(248, 248, 255, 0.966);
             text-decoration: none;
             color: black;
+            margin-bottom: 2.5%;
 
             &:hover{
                 color: whitesmoke;
@@ -313,6 +318,8 @@ nav{
     justify-content: space-around;
     flex-direction: row;
     height: 25vh;
+    max-height: 100%;
+    height: auto;
 
     .sub1-section5{
         display: flex;
@@ -355,3 +362,4 @@ nav{
         }
     }
 }
+

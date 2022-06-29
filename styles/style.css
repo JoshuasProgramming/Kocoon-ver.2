@@ -348,6 +348,8 @@ nav .navbar .right p {
   background-size: cover;
   min-height: 80%;
   width: -webkit-fill-available;
+  max-height: 100%;
+  height: auto;
 }
 
 .section-4 .sub1-section4 {
@@ -390,6 +392,7 @@ nav .navbar .right p {
   background: rgba(248, 248, 255, 0.966);
   text-decoration: none;
   color: black;
+  margin-bottom: 2.5%;
 }
 
 .section-4 .sub1-section4 a:hover {
@@ -417,6 +420,8 @@ nav .navbar .right p {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 25vh;
+  max-height: 100%;
+  height: auto;
 }
 
 .section-5 .sub1-section5 {
