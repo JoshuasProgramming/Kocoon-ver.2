@@ -412,6 +412,30 @@ nav{
 
 @media screen and (max-width:640px){
 
+    .article-section{
+
+        h1{
+            font-size: 9vw;
+        }
+
+        .article-container{
+            display: flex;
+            flex-direction: column;
+
+            .image-container{
+                img{
+                    height: auto;
+                    max-width: 100%;
+                }
+
+                h2{
+                    font-size: 6vw;
+                }
+            }
+        }
+        
+    }
+
     .section-4{
         .sub1-section4{
            h3{
@@ -429,9 +453,42 @@ nav{
         }
     }
 
+    .section-5{
+        .sub1-section5{
+            img{
+                padding: 100px 0% 25px 0%;
+                height: 15vh;
+            }
+
+            p{
+                font-size: 3vw;
+            }
+        }
+
+        .sub2-section5{
+            p{
+                font-size: 3vw;
+            }
+        }
+
+        .sub3-section5{
+            p{
+                font-size: 3vw;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width:320px){
+
+    .article-section{
+        .article-container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
     .section-4{
         .sub1-section4{
            h3{
