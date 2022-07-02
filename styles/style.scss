@@ -412,6 +412,23 @@ nav{
 
 @media screen and (max-width:640px){
 
+    .section-1{
+        .left{
+            h1{
+                flex-direction: column;
+                font-size: 15vw;
+            }
+        }
+
+        .right{
+            display: none;
+        }
+    }
+
+    .section-3{
+        flex-direction: column;
+    }
+
     .article-section{
 
         h1{
