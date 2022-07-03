@@ -396,8 +396,16 @@ nav{
     }
 }
 
+.section-5-mobile{
+    display: none;
+}
+
+.section-5-tablet{
+    display: none;
+}
+
 /*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal) (min-height: 440px)*/
-@media screen and (max-width:912px){
+@media screen and (max-width:1025px){
     nav{
         .navbar{
 
@@ -419,7 +427,7 @@ nav{
 }
 
 /*tablet*/
-@media screen and (max-width:640px){
+@media screen and (max-width:1024px){
 
     .section-1{
         display: none;
@@ -475,26 +483,57 @@ nav{
     }
 
     .section-5{
-        .sub1-section5{
-            img{
-                padding: 100px 0% 25px 0%;
-                height: 15vh;
+        display: none;
+    }
+
+    .section-5-tablet{
+        background: #392884;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 25vh;
+        max-height: 100%;
+        height: auto;
+
+        .left{
+            .sub1-section5{
+                img{
+                    height: 9vh;
+                    padding: 9% 0% 0% 25%;
+                }
+            }
+            
+            .emptyspace{
+                height: 5vh;
             }
 
             p{
-                font-size: 3vw;
+                padding: 1% 0% 0% 25%;
+                color: #FFFFFF;
+            }
+
+            .emptyspace2{
+                height: 4vh;
             }
         }
 
-        .sub2-section5{
-            p{
-                font-size: 3vw;
+        .right{
+            .sub1-section5{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                height: 32vh;
+                flex-flow: column;
+        
+                img{
+                    height: 79px;
+                    padding: 11px 0% 0% 0%;
+                }
             }
-        }
 
-        .sub3-section5{
-            p{
-                font-size: 3vw;
+            .right-text{
+                color: #FFFFFF;
             }
         }
     }
@@ -502,7 +541,7 @@ nav{
 }
 
 /*mobile*/
-@media screen and (max-width:414px){
+@media screen and (max-width:545px){
 
     nav{
         .navbar{
@@ -683,5 +722,9 @@ nav{
             }
         }
         
+    }
+
+    .section-5-tablet{
+        display: none;
     }
 }

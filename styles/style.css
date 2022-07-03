@@ -508,8 +508,16 @@ nav .navbar .right p {
   font-weight: 400;
 }
 
+.section-5-mobile {
+  display: none;
+}
+
+.section-5-tablet {
+  display: none;
+}
+
 /*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal) (min-height: 440px)*/
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1025px) {
   nav .navbar .left img {
     width: 25vw;
   }
@@ -522,7 +530,7 @@ nav .navbar .right p {
 }
 
 /*tablet*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   .section-1 {
     display: none;
   }
@@ -562,23 +570,68 @@ nav .navbar .right p {
     font-family: system-ui;
     font-weight: 500;
   }
-  .section-5 .sub1-section5 img {
-    padding: 100px 0% 25px 0%;
-    height: 15vh;
+  .section-5 {
+    display: none;
   }
-  .section-5 .sub1-section5 p {
-    font-size: 3vw;
+  .section-5-tablet {
+    background: #392884;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 25vh;
+    max-height: 100%;
+    height: auto;
   }
-  .section-5 .sub2-section5 p {
-    font-size: 3vw;
+  .section-5-tablet .left .sub1-section5 img {
+    height: 9vh;
+    padding: 9% 0% 0% 25%;
   }
-  .section-5 .sub3-section5 p {
-    font-size: 3vw;
+  .section-5-tablet .left .emptyspace {
+    height: 5vh;
+  }
+  .section-5-tablet .left p {
+    padding: 1% 0% 0% 25%;
+    color: #FFFFFF;
+  }
+  .section-5-tablet .left .emptyspace2 {
+    height: 4vh;
+  }
+  .section-5-tablet .right .sub1-section5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    height: 32vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .section-5-tablet .right .sub1-section5 img {
+    height: 79px;
+    padding: 11px 0% 0% 0%;
+  }
+  .section-5-tablet .right .right-text {
+    color: #FFFFFF;
   }
 }
 
 /*mobile*/
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 545px) {
   nav .navbar {
     height: 7.5vh;
   }
@@ -749,6 +802,9 @@ nav .navbar .right p {
   }
   .section-5-mobile .sub3-section5 p {
     color: #FFFFFF;
+  }
+  .section-5-tablet {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
