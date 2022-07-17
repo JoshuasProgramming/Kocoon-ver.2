@@ -815,9 +815,13 @@ nav .navbar .right p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 0;
   }
   .article-section .article-container .image-container {
     margin: 10% 10% 10%;
+  }
+  .article-section .article-container .image-container h2 {
+    font-size: 30px;
   }
   .section-4 .sub1-section4 h3 {
     font-size: 8vw;
