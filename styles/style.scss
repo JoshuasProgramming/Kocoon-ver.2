@@ -223,9 +223,11 @@ nav{
         flex-direction: column;
 
         p{
-            font-size: 32px;
+            font-size: 26px;
             padding-bottom: 15px;
             font-family: system-ui;
+            width: 80%;
+            padding-left: 25px;
         }
 
         a{
@@ -233,6 +235,7 @@ nav{
             font-size: 36px;
             text-decoration: none;
             font-family: system-ui;
+            padding-left: 25px;
         }
     }
 }
