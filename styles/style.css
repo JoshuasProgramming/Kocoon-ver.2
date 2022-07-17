@@ -829,13 +829,13 @@ nav .navbar .right p {
     font-size: 8vw;
   }
   .section-4 .sub1-section4 a {
-    font-size: 3.15vw;
     border: 2.5px solid #020202;
     border-radius: 25px;
-    padding: 2.3% 11.1% 2.3% 11.1%;
     font-family: system-ui;
     font-weight: 500;
     margin-bottom: 5%;
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
   }
   .section-5 {
     display: none;
