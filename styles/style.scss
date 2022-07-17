@@ -630,18 +630,20 @@ nav{
         align-items: center;
 
         a{
-            font-size: 6.15vw;
-            border: 2.5px solid #020202;
+            border: 0.5px solid #020202;
             border-radius: 25px;
-            padding: 5% 25.1% 5% 25.1%;
-            font-family: system-ui;
+            font-family: roboto;
             font-weight: 500;
             align-self: center;
             transition: ease-in-out 0.5s;
             background: rgba(248, 248, 255, 0.966);
             text-decoration: none;
-            color: black;
-            margin-bottom: 5%;
+            color: #1b1b1b;
+            font-size: 18px;
+            padding: 15px 50px 15px 50px;
+            width: -webkit-fill-available;
+            text-align: center;
+            margin: 0px 10px 5% 10px;
 
             &:hover{
                 color: whitesmoke;
@@ -690,6 +692,7 @@ nav{
             p{
                 font-size: 5vw;
                 padding-left: 0;
+                width: fit-content;
             }
 
             a{
@@ -753,9 +756,8 @@ nav{
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
-        height: 25vh;
-        max-height: 100%;
-        height: auto;
+        max-height: 40vh;
+        height: -webkit-fill-available;
 
         .sub1-section5{
             display: flex;
@@ -786,13 +788,18 @@ nav{
             p{
                 color: #FFFFFF;
             }
+
+            a{
+                color: #d1d1d1;
+                text-decoration: none;
+            }
         }
 
         .sub3-section5{
             align-self: baseline;
 
             p{
-                color: #FFFFFF;
+                color: #d1d1d1;
             }
         }
         

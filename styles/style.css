@@ -746,11 +746,9 @@ nav .navbar .right p {
             align-items: center;
   }
   .section-1-mobile a {
-    font-size: 6.15vw;
-    border: 2.5px solid #020202;
+    border: 0.5px solid #020202;
     border-radius: 25px;
-    padding: 5% 25.1% 5% 25.1%;
-    font-family: system-ui;
+    font-family: roboto;
     font-weight: 500;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -759,8 +757,12 @@ nav .navbar .right p {
     transition: ease-in-out 0.5s;
     background: rgba(248, 248, 255, 0.966);
     text-decoration: none;
-    color: black;
-    margin-bottom: 5%;
+    color: #1b1b1b;
+    font-size: 18px;
+    padding: 15px 50px 15px 50px;
+    width: -webkit-fill-available;
+    text-align: center;
+    margin: 0px 10px 5% 10px;
   }
   .section-1-mobile a:hover {
     color: whitesmoke;
@@ -794,6 +796,9 @@ nav .navbar .right p {
   .section-3 .right p {
     font-size: 5vw;
     padding-left: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .section-3 .right a {
     font-size: 6.5vw;
@@ -854,9 +859,8 @@ nav .navbar .right p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 25vh;
-    max-height: 100%;
-    height: auto;
+    max-height: 40vh;
+    height: -webkit-fill-available;
   }
   .section-5-mobile .sub1-section5 {
     display: -webkit-box;
@@ -895,12 +899,16 @@ nav .navbar .right p {
   .section-5-mobile .sub2-section5 p {
     color: #FFFFFF;
   }
+  .section-5-mobile .sub2-section5 a {
+    color: #d1d1d1;
+    text-decoration: none;
+  }
   .section-5-mobile .sub3-section5 {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
   .section-5-mobile .sub3-section5 p {
-    color: #FFFFFF;
+    color: #d1d1d1;
   }
   .section-5-tablet {
     display: none;
