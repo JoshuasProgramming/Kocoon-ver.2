@@ -1030,4 +1030,50 @@ nav .navbar .right p {
     display: none;
   }
 }
+
+@media screen and (max-width: 292px) {
+  .section-1-mobile a {
+    font-size: 13px;
+    padding: 5%;
+  }
+  .section-4 .sub1-section4 a {
+    font-size: 10px;
+    padding: 5%;
+  }
+  .section-5-mobile .sub1-section5 .sub1-2-section5 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-5-mobile .sub1-section5 img {
+    height: 37px;
+  }
+  .section-5-mobile .sub2-section5 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-5-mobile .sub2-section5 p {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin-inline: auto;
+  }
+  .section-5-mobile .sub2-section5 a {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    font-size: x-small;
+  }
+  .section-5-mobile .sub3-section5 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-5-mobile .sub3-section5 p {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
 /*# sourceMappingURL=style.css.map */
