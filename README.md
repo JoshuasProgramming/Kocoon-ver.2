@@ -16,7 +16,7 @@ Once again, I really enjoyed the process of breaking down the website that I had
 * Creating a website ASAP.
 * Flexbox & layouts.
 
-Now I've learn't:
+Now I've also learn't:
 
 * How to work with a UI/UX designer ad grab a few lessons from their side of work
 * How to use Figma from a web developer point of view
@@ -28,3 +28,13 @@ Now I've learn't:
 * Making sure that when I decrease the height of the page, the elements don't adapt (responsive design)
 * Updating my knowledge on responsive design as a whole.
 * Looking for ways to minimise the amount of code that I write.
+
+# Final Product 1920x1080 Desktop
+
+### Final Product [Main Page] (1920x1080 desktop)
+![Final Product](https://github.com/JoshuasProgramming/Kocoon-ver.2/blob/main/screenshots/127.0.0.1_5500_index.html%20(13).png)
+
+# Final Product 375x667 Mobiile 
+
+### Final Product [Main Page] (414x896 mobile)
+![Final Product](https://github.com/JoshuasProgramming/Kocoon-ver.2/blob/main/screenshots/127.0.0.1_5500_index.html(iPhone%20XR).png)
