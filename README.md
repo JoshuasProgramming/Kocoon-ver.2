@@ -18,10 +18,10 @@ Once again, I really enjoyed the process of breaking down the website that I had
 
 Now I've also learn't:
 
-* How to work with a UI/UX designer ad grab a few lessons from their side of work
-* How to use Figma from a web developer point of view
-* The process of updating an already exsisting website that I've made before
-* The importance of commenting each section of code fully before writing HTML,CSS, SASS or Javasscript
+* How to work with a UI/UX designer ad grab a few lessons from their side of work.
+* How to use Figma from a web developer point of view.
+* The process of updating an already exsisting website that I've made before.
+* The importance of commenting each section of code fully before writing HTML,CSS, SASS or Javasscript.
 
 # Challenges
 
